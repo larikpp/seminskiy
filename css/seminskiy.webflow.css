@@ -1166,7 +1166,7 @@ figcaption {
 }
 
 .padding-section-144 {
-  min-height: 18rem;
+  min-height: auto;
   padding-top: 10vw;
   padding-bottom: 10vw;
 }
