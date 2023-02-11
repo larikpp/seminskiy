@@ -4736,7 +4736,11 @@ figcaption {
     display: flex;
     color: #fff;
   }
-
+  .form-rabotaet{
+    margin: auto !important;
+    text-align: center;
+    margin-top: 10px;
+  }
   .nav-line-w-bottom {
     display: -webkit-box;
     display: -webkit-flex;
