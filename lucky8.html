@@ -17,7 +17,7 @@
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/seminskiy.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/faviconApl.png" rel="apple-touch-icon"><!--  [Attributes by Finsweet] Disable scrolling  -->
+  <link href="images/appleicon.png" rel="apple-touch-icon"><!--  [Attributes by Finsweet] Disable scrolling  -->
   <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
   <!--  [Attributes by Finsweet] Auto Video  -->
   <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
@@ -297,6 +297,16 @@ template {
 }  
 </style>
   <style>
+ @media screen and (max-width: 1600px){
+	.container-medium.is-whiskey{
+  		width: 90rem;
+ 			max-width: 100%;
+  }
+  .container-medium.lucky8{
+  width: 68rem;
+  max-width: 100%
+  }
+}   
 @media screen and (max-width: 1366px){
 	.hero-content.is2, .hero-content.is3{
   	padding: 0;
@@ -312,7 +322,11 @@ template {
 	  width: 38rem;
   /*background-color: red;*/
    }
- .container-medium, .container-medium.test, .container-medium.is-diff{
+ .container-medium.is-whiskey{
+ max-width: 100%;
+ width: 72rem;
+ }
+ .container-medium, .container-medium.test, .container-medium.is-diff, container-medium.lucky8{
  		max-width: 100%;
     width: 60rem;
     /*background-color: red;*/
@@ -326,12 +340,6 @@ template {
     width: 51.825rem;
   } 
 }
-/*@media screen and (max-width: 991px){
-	.swiper-pieces_component{
-  	width: 40%;
-    min-width: none;
-  }
-*/
 }
 </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
@@ -578,7 +586,7 @@ pointer-events: none;
                     </div>
                     <div class="swiper-lower-text">
                       <div class="text-size-18">43 000£</div>
-                      <a href="/contact" class="button-2 is-enquire w-inline-block">
+                      <a href="contact" class="button-2 is-enquire w-inline-block">
                         <div class="text-size-14">Enquire</div>
                         <div class="post-logo w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewbox="0 0 18 12" fill="none">
                             <rect x="1" y="1" width="16" height="10" stroke="#272727" stroke-linejoin="round"></rect>
@@ -716,15 +724,15 @@ pointer-events: none;
         <section class="section-hero-a">
           <div class="padding-section-v1 bigger">
             <div class="padding-global">
-              <div class="container-medium test">
+              <div class="container-medium lucky8">
                 <div class="hero-content lucky8">
                   <div class="swiper-pieces_component is-8">
                     <div class="sw-pieces-top">
                       <div class="swiper is-heron">
                         <div class="swiper-wrapper is-heron">
                           <div class="swiper-slide is-heron">
-                            <div class="sw-piece-height">
-                              <a href="#" class="lightboxb1 w-inline-block w-lightbox"><img src="images/10.webp" loading="eager" sizes="(max-width: 479px) 30.73750114440918px, (max-width: 767px) 6vw, 100vw" srcset="images/10-p-500.webp 500w, images/10-p-800.webp 800w, images/10-p-1080.webp 1080w, images/10-p-1600.webp 1600w, images/10-p-2000.webp 2000w, images/10.webp 2228w" alt="Lucky 8 main picture" class="image">
+                            <div class="sw-piece-height is-first">
+                              <a href="#" class="lightboxb1 w-inline-block w-lightbox"><img src="images/10.webp" loading="eager" sizes="(max-width: 479px) 9.175000190734863px, (max-width: 767px) 4vw, 100vw" srcset="images/10-p-500.webp 500w, images/10-p-800.webp 800w, images/10-p-1080.webp 1080w, images/10-p-1600.webp 1600w, images/10-p-2000.webp 2000w, images/10.webp 2228w" alt="Lucky 8 main picture" class="image">
                                 <script type="application/json" class="w-json">{
   "items": [
     {
@@ -745,7 +753,7 @@ pointer-events: none;
                           </div>
                           <div class="swiper-slide is-heron">
                             <div class="sw-piece-height">
-                              <a href="#" class="lightboxb1 is-2 w-inline-block w-lightbox"><img src="images/15.webp" loading="eager" sizes="(max-width: 479px) 30.73750114440918px, (max-width: 767px) 6vw, 100vw" srcset="images/15-p-500.webp 500w, images/15-p-800.webp 800w, images/15-p-1080.webp 1080w, images/15.webp 1284w" alt="Detailed photo of Lucky 8 " class="image">
+                              <a href="#" class="lightboxb1 is-2 w-inline-block w-lightbox"><img src="images/15.webp" loading="eager" sizes="(max-width: 479px) 9.175000190734863px, (max-width: 767px) 4vw, 100vw" srcset="images/15-p-500.webp 500w, images/15-p-800.webp 800w, images/15-p-1080.webp 1080w, images/15.webp 1284w" alt="Detailed photo of Lucky 8 " class="image">
                                 <script type="application/json" class="w-json">{
   "items": [
     {
@@ -766,7 +774,7 @@ pointer-events: none;
                           </div>
                           <div class="swiper-slide is-heron">
                             <div class="sw-piece-height">
-                              <a href="#" class="lightboxb1 is-3 w-inline-block w-lightbox"><img src="images/14.webp" loading="lazy" sizes="(max-width: 479px) 30.73750114440918px, (max-width: 767px) 6vw, 100vw" srcset="images/14-p-500.webp 500w, images/14-p-800.webp 800w, images/14-p-1080.webp 1080w, images/14-p-1600.webp 1600w, images/14-p-2000.webp 2000w, images/14-p-2600.webp 2600w, images/14.webp 3023w" alt="Detailed photo of Lucky 8 " class="image">
+                              <a href="#" class="lightboxb1 is-3 w-inline-block w-lightbox"><img src="images/14.webp" loading="lazy" sizes="(max-width: 479px) 9.175000190734863px, (max-width: 767px) 4vw, 100vw" srcset="images/14-p-500.webp 500w, images/14-p-800.webp 800w, images/14-p-1080.webp 1080w, images/14-p-1600.webp 1600w, images/14-p-2000.webp 2000w, images/14-p-2600.webp 2600w, images/14.webp 3023w" alt="Detailed photo of Lucky 8 " class="image">
                                 <script type="application/json" class="w-json">{
   "items": [
     {
@@ -787,7 +795,7 @@ pointer-events: none;
                           </div>
                           <div class="swiper-slide is-heron">
                             <div class="sw-piece-height">
-                              <a href="#" class="lightboxb1 is-4 w-inline-block w-lightbox"><img src="images/12.webp" loading="lazy" sizes="(max-width: 479px) 30.73750114440918px, (max-width: 767px) 6vw, 100vw" srcset="images/12-p-500.webp 500w, images/12-p-800.webp 800w, images/12-p-1080.webp 1080w, images/12-p-1600.webp 1600w, images/12-p-2000.webp 2000w, images/12-p-2600.webp 2600w, images/12.webp 2682w" alt="Detailed photo of Lucky 8 " class="image">
+                              <a href="#" class="lightboxb1 is-4 w-inline-block w-lightbox"><img src="images/12.webp" loading="lazy" sizes="(max-width: 479px) 9.175000190734863px, (max-width: 767px) 4vw, 100vw" srcset="images/12-p-500.webp 500w, images/12-p-800.webp 800w, images/12-p-1080.webp 1080w, images/12-p-1600.webp 1600w, images/12-p-2000.webp 2000w, images/12-p-2600.webp 2600w, images/12.webp 2682w" alt="Detailed photo of Lucky 8 " class="image">
                                 <script type="application/json" class="w-json">{
   "items": [
     {
@@ -808,7 +816,7 @@ pointer-events: none;
                           </div>
                           <div class="swiper-slide is-heron">
                             <div class="sw-piece-height">
-                              <a href="#" class="lightboxb1 is-5 w-inline-block w-lightbox"><img src="images/13.webp" loading="lazy" sizes="(max-width: 479px) 30.73750114440918px, (max-width: 767px) 6vw, 100vw" srcset="images/13-p-500.webp 500w, images/13-p-800.webp 800w, images/13-p-1080.webp 1080w, images/13-p-1600.webp 1600w, images/13-p-2000.webp 2000w, images/13-p-2600.webp 2600w, images/13.webp 2965w" alt="Detailed photo of Lucky 8 " class="image">
+                              <a href="#" class="lightboxb1 is-5 w-inline-block w-lightbox"><img src="images/13.webp" loading="lazy" sizes="(max-width: 479px) 9.175000190734863px, (max-width: 767px) 4vw, 100vw" srcset="images/13-p-500.webp 500w, images/13-p-800.webp 800w, images/13-p-1080.webp 1080w, images/13-p-1600.webp 1600w, images/13-p-2000.webp 2000w, images/13-p-2600.webp 2600w, images/13.webp 2965w" alt="Detailed photo of Lucky 8 " class="image">
                                 <script type="application/json" class="w-json">{
   "items": [
     {
@@ -860,16 +868,8 @@ pointer-events: none;
                         </div>
                       </div>
                       <div class="hero-bottom-second">
-                        <a href="/contact" data-w-id="428ae855-7896-ccdd-e7fb-f65ffe4c730a" class="button is-enquire w-inline-block">
+                        <a href="#" class="button is-enquire w-inline-block">
                           <div class="text-size-14">Enquire</div>
-                          <div class="icon1-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewbox="0 0 18 10" fill="none">
-                              <rect x="1" y="1" width="16" height="10" stroke="#272727" stroke-linejoin="round"></rect>
-                              <path d="M1 1L9 7L17 1" stroke="#272727"></path>
-                            </svg></div>
-                          <div style="display:none" class="icon2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewbox="0 0 18 10" fill="none">
-                              <rect x="1" y="1" width="16" height="10" stroke="white" stroke-linejoin="round"></rect>
-                              <path d="M1 1L9 7L17 1" stroke="white"></path>
-                            </svg></div>
                         </a>
                       </div>
                       <div class="footer_contact is-new hide-on-tablet">
@@ -879,7 +879,7 @@ pointer-events: none;
                         </div>
                         <div id="w-node-_50c6a1d1-353f-388c-d913-007bcdfea7a1-ff835b0d" class="footer_contact-item">
                           <div class="heading-style-h0 text-color-grey">Phone</div>
-                          <a href="tel:+447655020202" class="text-size-14">+4407743481667</a>
+                          <a href="tel:+4407743481667" class="text-size-14">+4407743481667</a>
                         </div>
                       </div>
                     </div>
@@ -887,12 +887,15 @@ pointer-events: none;
                   <div class="fix w-embed">
                     <style>
 .hero-content.is-8>*+* { margin-left: 7vw;}
+.hero-content.lucky8>*+* { margin-left: 6vw !important;}
 .hero-slider-top>*+* { margin-top: 1.875rem;}
 .hero-slider-info>*+* {margin-top: 3.375rem;}
 @media screen and (max-width: 1515px){
 	.hero-content.is-8>*+* { margin-left: 5vw !important;}
+  .hero-content.lucky8>*+* { margin-left: 5vw !important;}
 @media screen and (max-width: 1200px){
 	.hero-content.is-8>*+* { margin-left: 4vw !important;}
+  .hero-content.lucky8>*+* { margin-left: 6vw !important;}
 @media screen and (max-width: 900px){
 	.hero-content.is2, .hero-content.is-8{
   flex-direction: column;
@@ -926,7 +929,7 @@ pointer-events: none;
                       <line y1="0.75" x2="224" y2="0.75" stroke="black" stroke-width="0.5"></line>
                     </svg></div>
                   <div>
-                    <div class="heading-style-h2">The process</div>
+                    <h2 class="heading-style-h2">The process</h2>
                   </div>
                   <div>
                     <div class="text-size-14">Anna Seminskiy is a painter by calling. Through years, Anna developed her own painting technique using oil and acrylic on a premium cotton canvases.</div>
@@ -1010,7 +1013,7 @@ pointer-events: none;
                   </div>
                   <div id="w-node-_0ce58316-fbbe-eb78-c5d6-f48494f14582-94f14574" class="footer_contact-item">
                     <div class="heading-style-h0 text-color-grey is-bigger">Phone</div>
-                    <a href="tel:+447655020202" class="heading-style-h0 eu">+4407743481667</a>
+                    <a href="tel:+4407743481667" class="heading-style-h0 eu">+4407743481667</a>
                   </div>
                   <div id="w-node-_0ce58316-fbbe-eb78-c5d6-f48494f14587-94f14574" class="footer_contact-item">
                     <div class="heading-style-h0 text-color-grey is-bigger">Instagram</div>
@@ -1035,7 +1038,7 @@ pointer-events: none;
                     <path d="M14.68 14.78L8.8 0.119999H8.48L2.58 14.78C2.38 15.28 2.14 15.42 1.56 15.46L0.68 15.52V16H5.04V15.52L4.04 15.46C3.4 15.42 3.18 15.28 3.38 14.78L5.1 10.42H10.76L12.48 14.78C12.68 15.28 12.46 15.42 11.82 15.46L10.82 15.52V16H16.6V15.52L15.72 15.46C15.12 15.42 14.88 15.28 14.68 14.78ZM5.42 9.62L7.94 3.22L10.46 9.62H5.42ZM17.4334 16H21.8134V15.52L20.9334 15.46C20.3334 15.42 20.0134 15.3 20.0134 14.74V3.82L31.1534 16.38H31.2334V2.1C31.2334 1.54 31.5334 1.42 32.1334 1.38L33.0334 1.32V0.84H28.6334V1.32L29.5334 1.38C30.1334 1.42 30.4534 1.54 30.4534 2.1V12.48L20.0534 0.84H17.4134V0.879999L19.2334 2.94V14.74C19.2334 15.3 18.9334 15.42 18.3334 15.46L17.4334 15.52V16ZM35.0897 16H39.4697V15.52L38.5897 15.46C37.9897 15.42 37.6697 15.3 37.6697 14.74V3.82L48.8097 16.38H48.8897V2.1C48.8897 1.54 49.1897 1.42 49.7897 1.38L50.6897 1.32V0.84H46.2897V1.32L47.1897 1.38C47.7897 1.42 48.1097 1.54 48.1097 2.1V12.48L37.7097 0.84H35.0697V0.879999L36.8897 2.94V14.74C36.8897 15.3 36.5897 15.42 35.9897 15.46L35.0897 15.52V16ZM65.1683 14.78L59.2883 0.119999H58.9683L53.0683 14.78C52.8683 15.28 52.6283 15.42 52.0483 15.46L51.1683 15.52V16H55.5283V15.52L54.5283 15.46C53.8883 15.42 53.6683 15.28 53.8683 14.78L55.5883 10.42H61.2483L62.9683 14.78C63.1683 15.28 62.9483 15.42 62.3083 15.46L61.3083 15.52V16H67.0883V15.52L66.2083 15.46C65.6083 15.42 65.3683 15.28 65.1683 14.78ZM55.9083 9.62L58.4283 3.22L60.9483 9.62H55.9083ZM76.488 16.24C79.608 16.24 82.168 14.54 82.168 11.92C82.168 9.2 80.188 8.02 77.388 7.12L76.328 6.78C74.608 6.22 73.828 5.22 73.828 3.86C73.828 2.14 75.408 1.16 77.028 1.16C77.468 1.16 77.848 1.18 78.208 1.26C78.608 1.36 78.828 1.44 79.128 1.94L81.068 5.12H81.428L80.708 1.04C79.728 0.66 78.568 0.499999 77.308 0.499999C74.628 0.499999 72.068 1.94 72.068 4.52C72.068 6.74 73.428 8.2 75.748 8.94L76.808 9.28C78.928 9.96 80.348 10.86 80.348 12.78C80.348 14.56 78.588 15.6 76.508 15.6C75.788 15.6 75.368 15.54 75.008 15.4C74.688 15.28 74.408 15.04 74.228 14.68L72.508 11.14H72.148L72.608 15.72C73.708 16.08 74.948 16.24 76.488 16.24ZM84.3461 16H96.4461L97.8061 11.52H97.4461L94.7061 15.08C94.5261 15.32 94.4661 15.36 94.1461 15.36H88.1661V8.46H91.1661C91.5061 8.46 91.5261 8.5 91.6061 8.72L92.4061 11.06H92.7661V5.12H92.4061L91.6061 7.48C91.5461 7.68 91.5061 7.74 91.1661 7.74H88.1661V1.48H93.1661C93.5061 1.48 93.5861 1.52 93.7461 1.8L95.7861 5.28H96.1461L95.4861 0.84H84.3461V1.32L85.2461 1.38C85.8261 1.42 86.1461 1.54 86.1461 2.1V14.74C86.1461 15.3 85.8261 15.42 85.2461 15.46L84.3461 15.52V16ZM98.9461 16H103.326V15.52L102.406 15.46C101.826 15.42 101.486 15.3 101.526 14.74L102.326 1.7L107.906 13.44H108.026L113.586 1.68L114.386 14.74C114.426 15.3 114.066 15.42 113.466 15.46L112.586 15.52V16H118.226V15.52L117.326 15.46C116.726 15.42 116.446 15.3 116.406 14.74L115.606 2.1C115.566 1.54 115.926 1.42 116.526 1.38L117.426 1.32V0.84H113.166L108.686 10.32L104.206 0.84H99.7461V1.32L100.646 1.38C101.226 1.42 101.586 1.54 101.546 2.1L100.746 14.74C100.706 15.3 100.406 15.42 99.8261 15.46L98.9461 15.52V16ZM120.01 16H125.65V15.52L124.75 15.46C124.15 15.42 123.83 15.3 123.83 14.74V2.1C123.83 1.54 124.15 1.42 124.75 1.38L125.65 1.32V0.84H120.01V1.32L120.91 1.38C121.49 1.42 121.81 1.54 121.81 2.1V14.74C121.81 15.3 121.49 15.42 120.91 15.46L120.01 15.52V16ZM127.883 16H132.263V15.52L131.383 15.46C130.783 15.42 130.463 15.3 130.463 14.74V3.82L141.603 16.38H141.683V2.1C141.683 1.54 141.983 1.42 142.583 1.38L143.483 1.32V0.84H139.083V1.32L139.983 1.38C140.583 1.42 140.903 1.54 140.903 2.1V12.48L130.503 0.84H127.863V0.879999L129.683 2.94V14.74C129.683 15.3 129.383 15.42 128.783 15.46L127.883 15.52V16ZM150.199 16.24C153.319 16.24 155.879 14.54 155.879 11.92C155.879 9.2 153.899 8.02 151.099 7.12L150.039 6.78C148.319 6.22 147.539 5.22 147.539 3.86C147.539 2.14 149.119 1.16 150.739 1.16C151.179 1.16 151.559 1.18 151.919 1.26C152.319 1.36 152.539 1.44 152.839 1.94L154.779 5.12H155.139L154.419 1.04C153.439 0.66 152.279 0.499999 151.019 0.499999C148.339 0.499999 145.779 1.94 145.779 4.52C145.779 6.74 147.139 8.2 149.459 8.94L150.519 9.28C152.639 9.96 154.059 10.86 154.059 12.78C154.059 14.56 152.299 15.6 150.219 15.6C149.499 15.6 149.079 15.54 148.719 15.4C148.399 15.28 148.119 15.04 147.939 14.68L146.219 11.14H145.859L146.319 15.72C147.419 16.08 148.659 16.24 150.199 16.24ZM158.057 16H163.697V15.52L162.797 15.46C162.197 15.42 161.877 15.3 161.877 14.74V8.46L170.177 16H173.017L163.857 7.48L169.757 1.96C170.177 1.56 170.517 1.42 171.317 1.38L172.357 1.32V0.84H167.077V1.32L168.357 1.38C169.017 1.42 169.137 1.62 168.877 1.86L161.877 8.4V2.1C161.877 1.54 162.197 1.42 162.797 1.38L163.697 1.32V0.84H158.057V1.32L158.957 1.38C159.537 1.42 159.857 1.54 159.857 2.1V14.74C159.857 15.3 159.537 15.42 158.957 15.46L158.057 15.52V16ZM173.936 16H179.576V15.52L178.676 15.46C178.076 15.42 177.756 15.3 177.756 14.74V2.1C177.756 1.54 178.076 1.42 178.676 1.38L179.576 1.32V0.84H173.936V1.32L174.836 1.38C175.416 1.42 175.736 1.54 175.736 2.1V14.74C175.736 15.3 175.416 15.42 174.836 15.46L173.936 15.52V16ZM185.248 16H191.488V15.5L190.288 15.44C189.688 15.4 189.368 15.3 189.368 14.74V9.16L194.328 2.06C194.648 1.6 194.768 1.42 195.348 1.38L196.228 1.32V0.84H191.828V1.32L192.828 1.38C193.448 1.42 193.828 1.58 193.488 2.06L189.048 8.4L184.628 2.06C184.308 1.6 184.668 1.42 185.288 1.38L186.288 1.32V0.84H180.488V1.32L181.368 1.38C181.948 1.42 182.048 1.58 182.388 2.06L187.348 9.16V14.74C187.348 15.3 187.028 15.42 186.448 15.44L185.248 15.5V16Z" fill="currentColor"></path>
                   </svg></div>
               </a>
-              <nav role="navigation" class="nav-menu w-nav-menu">
+              <nav role="/navigation" class="nav-menu w-nav-menu">
                 <a href="/collections" class="nav_link2-2">Collections</a>
                 <a href="/contact" class="nav_link2-2">Contact</a>
                 <a href="/about" class="nav_link2-2">About</a>
