@@ -3715,7 +3715,7 @@ figcaption {
   }
 
   .relative {
-    grid-row-gap: 2rem;
+    grid-row-gap: 5rem;
   }
 
   .swiper-slide.is-heron {
